@@ -17,6 +17,10 @@ class ViewController: UIViewController, UITableViewDataSource
         // Do any additional setup after loading the view.
         myTableView.dataSource = self
         
+        let cheese = Item(n: "cheese")
+        let cookies = Item(n: "cookies")
+        
+        
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
